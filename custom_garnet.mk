@@ -16,6 +16,11 @@ TARGET_SCREEN_WIDTH := 1080
 # Inherit from garnet device
 $(call inherit-product, device/xiaomi/garnet/device.mk)
 
+ASCP_MAINTAINER := HEYDR
+WITH_BCR := true
+WITH_REVANCED := true
+ASCP_OFFICIAL := true
+
 PRODUCT_NAME := custom_garnet
 PRODUCT_DEVICE := garnet
 PRODUCT_MANUFACTURER := Xiaomi
