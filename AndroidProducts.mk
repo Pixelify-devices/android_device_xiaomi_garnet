@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/custom_garnet.mk
+    $(LOCAL_DIR)/garnet.mk
