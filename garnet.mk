@@ -16,7 +16,10 @@ TARGET_SCREEN_WIDTH := 1080
 # Inherit from garnet device
 $(call inherit-product, device/xiaomi/garnet/device.mk)
 
-PRODUCT_NAME := custom_garnet
+ASCP_MAINTAINER := HEYDR
+WITH_REVANCED := true
+
+PRODUCT_NAME := garnet
 PRODUCT_DEVICE := garnet
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
