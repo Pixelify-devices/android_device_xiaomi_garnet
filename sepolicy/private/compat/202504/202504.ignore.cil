@@ -7,4 +7,8 @@
   ( new_objects
     aux_camera_control_prop
     devicesettings_app
-    settingslib_prop))
+    settingslib_prop
+    vendor_latency_device
+    vendor_pd_locater_dbg_prop
+    vendor_persist_debug_wifi_prop
+    vendor_nfc_prop))
