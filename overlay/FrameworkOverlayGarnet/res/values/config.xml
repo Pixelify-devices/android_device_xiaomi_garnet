@@ -884,4 +884,6 @@
 
     <!--Useful if you want to improve signal reception -->
     <bool name="config_ignoreRssnrSignalLevel">true</bool>
+    <!-- Disable app launch blur -->
+    <bool name="config_enableAppLaunchBlur">false</bool>
 </resources>
