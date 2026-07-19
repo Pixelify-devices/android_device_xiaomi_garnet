@@ -18,6 +18,7 @@ $(call inherit-product, device/xiaomi/garnet/device.mk)
 
 ASCP_MAINTAINER := HEYDR
 WITH_REVANCED := true
+PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS := false
 
 PRODUCT_NAME := garnet
 PRODUCT_DEVICE := garnet
