@@ -17,6 +17,7 @@ TARGET_SCREEN_WIDTH := 1080
 $(call inherit-product, device/xiaomi/garnet/device.mk)
 
 ASCP_MAINTAINER := HEYDR
+WITH_REVANCED := true
 
 PRODUCT_NAME := garnet
 PRODUCT_DEVICE := garnet
