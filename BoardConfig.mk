@@ -84,10 +84,6 @@ $(foreach sku, CN GL JP, \
 
 DEVICE_FRAMEWORK_MANIFEST_FILE += $(DEVICE_PATH)/configs/hidl/framework_manifest.xml
 
-# HWUI
-HWUI_COMPILE_FOR_PERF := true
-TARGET_USES_VULKAN := true
-
 # Kernel
 TARGET_KERNEL_CLANG_VERSION := r563880c
 TARGET_KERNEL_CLANG_PATH := $(abspath .)/prebuilts/clang/host/linux-x86/clang-$(TARGET_KERNEL_CLANG_VERSION)
